@@ -1,0 +1,200 @@
+/* Reset and Basic Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Home Section */
+#home {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#home h2 {
+    font-size: 2.5rem;
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-buttons .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.cta-buttons .btn:hover {
+    background-color: #0056b3;
+}
+
+/* About Section */
+#about {
+    background-color: #e9ecef;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Services Section */
+#services {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#services ul {
+    list-style-type: none;
+}
+
+#services ul li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+/* Features Section */
+#features {
+    background-color: #e9ecef;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.contact-buttons .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.contact-buttons .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
